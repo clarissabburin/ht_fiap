@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-weight:normal;
+}
+
+html,body{
+    height: 100%;
+}
+

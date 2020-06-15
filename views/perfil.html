@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css">
+</head>
+<body>
+    <div class="flex-dashboard">
+        <sidebar>
+            <div class="sidebar-title">
+                <img src="../imagens/heartbeat_editado.png" alt="Foto Heartbeat">
+                <h2>Health Track</h2>
+
+            </div><!--div sidebar title-->
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <i class="fas fa-home"></i>
+                        <a href="dashboard.html">Dashboard</a>
+
+                    <li>
+                        <i class="fas fa-user"></i>
+                        <a href="/views/perfil.html">Perfil</a>
+                    </li>
+
+
+                    <li>
+                        <i class="fas fa-weight"></i>
+                        <a href="gerenciarPeso.html">Peso e Altura</a>
+                    </li>
+
+
+                    <li>
+                        <i class="fas fa-heartbeat"></i>
+                        <a href="/views/bpm.html">Pressão Arterial</a>
+                    </li>
+
+
+                    <li>
+                        <i class="fas fa-dumbbell"></i>
+                        <a href="/views/atividades.html">Atividades Físicas</a>
+                    </li>
+
+
+                    <li>
+                        <i class="fas fa-utensils"></i>
+                        <a href="/views/nutricao.html">Dieta</a>
+                    </li>
+
+
+                    <li>
+                        <i class="fas fa-calculator"></i>
+                        <a href="/views/imc.html">IMC</a>
+                    </li>
+                </ul>
+
+            </div><!--div menu-->
+
+        </sidebar>
+        <main>
+            <header>
+                <a href="#"><i class="fas fa-home"></i> Dashboard</a>
+                <a href="../index.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+
+    
+            </header>
+
+            <div class="main-content">
+                <div class="perfil-parent">
+                    <div class="perfil">
+                        <div class="perfil-img">
+                            <div class="img">
+
+                            </div><!--div img-->
+
+
+                        </div><!--div perfil img-->
+
+                        <div class="perfil-form">
+                            <form>
+                                <div class="form-group">
+                                  <label for="name">Nome Completo</label>
+                                  <input type="text" class="form-control" id="name" placeholder="Digite seu nome completo">
+                                </div>
+                                <div class="form-group">
+                                  <label for="email">Email</label>
+                                  <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="idade">Idade</label>
+                                    <input type="text" class="form-control" id="idade" placeholder="Digite sua idade">
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="genre">Gênero</label>
+                                    <select class="form-control" id="genre">
+                                      <option>Masculino</option>
+                                      <option>Feminino</option>
+                                      <option>Não Binário</option>
+                                      
+                                    </select>
+                                  </div>
+
+
+                                  <div class="form-group">
+                                    <label for="password">Senha</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                                  </div>
+
+                                  <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="customFile">
+                                    <label class="custom-file-label" for="customFile">Envie sua foto</label>
+                                  </div>
+
+
+
+
+
+
+
+
+                                <button type="submit" class="btn">Salvar</button>
+                              </form>
+
+                        </div><!--div perfil form-->
+
+                    </div><!--div perfil-->
+
+                </div><!--perfil-parent-->
+                
+            </div><!--final div main-content-->
+        </main>
+    
+    </div><!--final div flex - dashboard-->
+    
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/plugins/fontawesome/js/all.min.js"></script>
+<script src="/js/ajax.js"></script>
+    
+</body>
+</html>
