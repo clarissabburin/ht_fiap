@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="flex-dashboard">
-        <sidebar>
+        <sidebar class="d-none d-sm-block">
             <div class="sidebar-title">
                 <img src="../imagens/heartbeat_editado.png" alt="Foto Heartbeat">
                 <h2>Health Track</h2>
@@ -73,9 +73,9 @@
                 <div class="main-content-title">
                     <h2>Dashboard</h2>
                 </div><!--div main content title-->
-                <div class="dashboard-content">
+                <div class="dashboard-content d-flex flex-column flex-md-row align-items-end">
                     <div class="dashboard-flex-parent">
-                        <div class="dashboard-box">
+                        <div class="dashboard-box justify-content-between text-center">
                             <div class="box-icon box-weight">
                                 <i class="fas fa-weight"></i>
                             </div>
@@ -87,7 +87,7 @@
                             </div>
                         </div><!--div dashboard box-->
 
-                        <div class="dashboard-box">
+                        <div class="dashboard-box justify-content-between text-center">
                             <div class="box-icon box-pressure">
                                 <i class="fas fa-heartbeat"></i>
                             </div>
@@ -98,21 +98,23 @@
                                 <span>20%</span>
                             </div>
                         </div><!--div dashboard box-->
+                    </div><!--div dashboard box-->
+
+                        <div class="dashboard-flex-parent ">
+                            <div class="dashboard-box justify-content-between text-center">
+                                <div class="box-icon box-imc">
+                                    <i class="fas fa-calculator"></i>
+                                </div>
+                                <div class="value">23,2</div>
+                                <div class="type">IMC</div>
+                                <div class="box-value-percentual">
+                                    <i class="fas fa-chevron-down"></i>
+                                    <span>NORMAL</span>
+                                </div>
+                            </div><!--div dashboard box-->
 
 
-                        <div class="dashboard-box">
-                            <div class="box-icon box-imc">
-                                <i class="fas fa-calculator"></i>
-                            </div>
-                            <div class="value">23,2</div>
-                            <div class="type">IMC</div>
-                            <div class="box-value-percentual">
-                                <span>NORMAL</span>
-                            </div>
-                        </div><!--div dashboard box-->
-
-
-                        <div class="dashboard-box">
+                        <div class="dashboard-box justify-content-between text-center">
                             <div class="box-icon box-workout">
                                 <i class="fas fa-biking"></i>
                             </div>
